@@ -10,7 +10,7 @@ public class Main {
         for (int i = 0; i < days.length; i++) {
             sum += days[i];
         }
-        System.out.println(" сумма всех затрат за месяц составила " + sum);
+        System.out.println(" сумма всех затрат за месяц составила " + sum +" рублей.");
 
         // Задание 2
         int maxPayment = 100_000;
@@ -21,7 +21,7 @@ public class Main {
             } else if (days[i] < minPayment) {
                 minPayment = days[i];
             }
-        }System.out.println("Минимальная сумма затрат составила " + minPayment + " рублей" + " Максимальная сумма затрат составила " + maxPayment + " рублей.");
+        }System.out.println("Минимальная сумма затрат составила " + minPayment + " рублей." + " Максимальная сумма затрат составила " + maxPayment + " рублей.");
         System.out.println();
 
         // Задание 3
